@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;900&display=swap');
+
+.nav-bar{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+
+}
+
+.logo{
+    display: flex;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+   
+   
+}
+.logo2{
+    display: flex;
+    float: left;
+    margin-left: 20px;
+}
+
+.logo2 img{
+    height: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.nav-items{
+    text-decoration: none;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font: size 14px;
+
+}
+
+.nav-items>li>a{
+    padding-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+
+
+
+body{
+    background-image: url('https://64.media.tumblr.com/2a4c3773e0ce1e52997a9d693a72b3af/01ab0d20547f9cba-d4/s500x750/2bb8fc5c4ea146c2d0aea2fa0bdc32cb7acd8e7e.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+img{
+    border-radius: 20px;
+}
+
+
+a{
+    color: rgb(255, 255, 255);
+
+}
+
+.secret-page{
+    color: red;
+}
